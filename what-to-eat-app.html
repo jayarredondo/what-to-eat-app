@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/what-to-eat-app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <title>What Should I Eat?</title>
+</head>
+<body>
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="img/What%20to%20eat_.png" width="60" height="60" class="d-inline-block align-top" alt="hungry-icon">
+        <h1 class="float-right pl-3">What Should I Eat?</h1>
+        <h5>San Antonio, TX</h5>
+    </a>
+</nav>
+<div class="container-fluid row mt-3 linear-bg">
+    <div class="container col">
+        <h2>Too hungry to choose and need an answer now?</h2>
+        <button type="button" id="randomFoodButton">Click Here!</button>
+        <div id="randomGenFood"></div>
+    </div>
+    <div class="container col">
+        <h4>Or, pick a category to narrow your results.</h4>
+        <form>
+            <div class="form-group">
+                <label for="type">Select a Category:</label><br><select id="type" class="w-100">
+                <option value="drive-thru">Drive-Thru</option>
+                <option value="order-to-go">Order-To-Go</option>
+                <option value="dine-in">Dine-In</option>
+            </select><br>
+            </div>
+            <div class="form-group">
+                <label for="specialty">What are you feeling?</label><br><select id="specialty" class="w-100">
+                <option value="any">Any</option>
+                <option value="mexican-food">Mexican-Food</option>
+                <option value="tacos">Tacos</option>
+                <option value="burritos">Burritos</option>
+                <option value="burgers">Burgers</option>
+                <option value="BBQ">Bar-B-Que</option>
+                <option value="chicken">Chicken</option>
+                <option value="asian cuisine">Asian Cuisine</option>
+                <option value="pizza">Pizza</option>
+                <option value="sandwiches">Sandwiches</option>
+                <option value="wings">Wings</option>
+                <option value="italian">Italian</option>
+            </select><br><br>
+                <button type="button" id="narrow-search">Show me my results!</button>
+            </div>
+        </form>
+        <div id="randomFood"></div>
+    </div>
+</div>
+<div id="results"></div>
+<div class="container row mt-5 linear-bg">
+    <div class="col">
+        <h1>What about dessert?</h1>
+        <h3>I'm thinking...</h3>
+        <h1 id="dessert"></h1>
+        <button type="button" id="getDessert">Get Dessert</button>
+    </div>
+    <div class="col" id="dessertResults"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
