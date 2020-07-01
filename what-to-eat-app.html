@@ -16,6 +16,7 @@
         <h5>San Antonio, TX</h5>
     </a>
 </nav>
+<div id="results"><h1>Your Results: Shown Here</h1></div>
 <div class="container-fluid row mt-3 linear-bg">
     <div class="container col">
         <h2>Too hungry to choose and need an answer now?</h2>
@@ -32,10 +33,11 @@
                 <option value="dine-in">Dine-In</option>
             </select><br>
             </div>
-            <div class="form-group">
+            <div class="form-group" id="foodBasedOnCategory">
                 <label for="specialty">What are you feeling?</label><br><select id="specialty" class="w-100">
                 <option value="any">Any</option>
                 <option value="mexican-food">Mexican-Food</option>
+                <option value="seafood">Seafood</option>
                 <option value="tacos">Tacos</option>
                 <option value="burritos">Burritos</option>
                 <option value="burgers">Burgers</option>
@@ -53,7 +55,6 @@
         <div id="randomFood"></div>
     </div>
 </div>
-<div id="results"></div>
 <div class="container row mt-5 linear-bg">
     <div class="col">
         <h1>What about dessert?</h1>
