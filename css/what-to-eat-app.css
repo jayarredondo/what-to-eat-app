@@ -1,11 +1,35 @@
-/*body {*/
-/*    background-image: linear-gradient(to top right, darkred, #f06d06, darkgoldenrod);*/
-/*}*/
+body {
+    background-color: #20A39E;
+    color: #23001E;
+    background-image: url("/img/photo-of-led-signage-on-the-wall-942317.jpg");
+    background-size: cover;
+}
+
+.navbar-text-color{
+    color: #EF5B5B;
+}
+
+h5 {
+    margin-left: 4em;
+}
+
+.navbar-bg {
+    background-color: #23001E;
+}
 
 h1, h2, h3, h4 {
     font-family: 'Sriracha', cursive;
     text-align: center;
     margin: auto;
+}
+
+.bg-select{
+    font-family: 'Sriracha', cursive;
+    color: #23001E;
+}
+
+.btn-color {
+    background-color: #FFBA49
 }
 
 .row {
