@@ -1,4 +1,20 @@
 "use strict";
+// function getRestaurants(){
+//     fetch("https://tripadvisor1.p.rapidapi.com/restaurants/list?lunit=km&restaurant_tagcategory=10591&limit=5000&currency=USD&lang=en_US&location_id=60956", {
+//         "method": "GET",
+//         "headers": {
+//             "x-rapidapi-host": "tripadvisor1.p.rapidapi.com",
+//             "x-rapidapi-key": "eaf329d4b4msh3a3ef3371bb1050p1f24dcjsnd2866729858b"
+//         }
+//     })
+//         .then(response => response.json()
+//             .then(data => console.log(data))
+//         .catch(err => {
+//             console.log(err);
+//         }));
+// }
+//
+// getRestaurants();
 
 let foodOptions = [
     {type: "drive-thru", name: "McDonald's", specialty: "burgers"},

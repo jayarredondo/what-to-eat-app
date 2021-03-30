@@ -1,8 +1,12 @@
 body {
     background-color: #20A39E;
     color: #23001E;
-    background-image: url("/img/background-for-site.jpeg");
-    background-size: cover;
+    /*background-image: url("../img/background-for-site.jpeg");*/
+    /*background-size: cover;*/
+}
+
+.linear-bg {
+    background-color: rgba(32,163,158,0.6)
 }
 
 .navbar-text-color{
